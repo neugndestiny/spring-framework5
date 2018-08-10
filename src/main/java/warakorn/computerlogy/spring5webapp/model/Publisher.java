@@ -13,9 +13,18 @@ public class Publisher {
     private Long id;
     private String name;
     private String address;
+    private String lastName;
 
     public Long getId() {
         return id;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public void setId(Long id) {
